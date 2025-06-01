@@ -1,19 +1,15 @@
 comfyui:
-    base_path: /workspace/forge
-    is_default: true
-    checkpoints: models/checkpoints/
-    clip: models/clip/
-    clip_vision: models/clip_vision/
-    configs: models/configs/
-    controlnet: models/controlnet/
-    diffusion_models: |
-                 models/diffusion_models
-                 models/unet
-    embeddings: models/embeddings/
-    loras: models/loras/
-    upscale_models: models/upscale_models/
-    vae: models/vae/
-#Points to the directory where the model files are stored.
-# The paths can be relative to the base_path or absolute.
-# The '|' character allows for multiple paths to be specified, separated by newlines.
-# The 'is_default' key indicates whether this is the default model path configuration.
+  base_path: /workspace/stable-diffusion-webui
+  is_default: true
+  checkpoints: models/Stable-diffusion/
+  clip: models/clip/  # Leave blank or create a dummy folder if unused
+  clip_vision: models/clip_vision/
+  configs: models/configs/
+  controlnet: models/ControlNet/
+  diffusion_models: |
+    models/diffusion_models
+    models/unet
+  embeddings: models/embeddings/
+  loras: models/Lora/
+  upscale_models: models/ESRGAN/
+  vae: models/VAE/
