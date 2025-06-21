@@ -1,5 +1,5 @@
 comfyui:
-  base_path: /workspace/stable-diffusion-webui
+  base_path: /workspace/forge
   is_default: true
   checkpoints: models/Stable-diffusion/
   clip: models/clip/  # Leave blank or create a dummy folder if unused
