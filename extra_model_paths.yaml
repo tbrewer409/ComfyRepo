@@ -1,0 +1,15 @@
+comfyui:
+  base_path: /workspace/stable-diffusion-webui
+  is_default: true
+  checkpoints: models/Stable-diffusion/
+  clip: models/clip/  # Leave blank or create a dummy folder if unused
+  clip_vision: models/clip_vision/
+  configs: models/configs/
+  controlnet: models/ControlNet/
+  diffusion_models: |
+    models/diffusion_models
+    models/unet
+  embeddings: embeddings/
+  loras: models/Lora/
+  upscale_models: models/ESRGAN/
+  vae: models/VAE/
